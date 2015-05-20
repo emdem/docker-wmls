@@ -1,0 +1,3 @@
+WITSML_STORE_URL=https://witsml_store_hostname/witsml/store
+WITSML_USER=username
+WITSML_PASSWORD=password
