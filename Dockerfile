@@ -1,7 +1,7 @@
 FROM ruby
 MAINTAINER Emre Demirors <emre.x.demirors@gmail.com>
 
-RUN gem install wmls
+RUN gem install wmls -v 0.1.15
 RUN git clone https://github.com/wellstorm/wmls.git /root/wmls
 
 WORKDIR /root/wmls
